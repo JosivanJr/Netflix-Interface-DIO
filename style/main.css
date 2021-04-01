@@ -1,0 +1,117 @@
+:root {
+  /* DECLARANDO VARIAVEIS NO CSS3 */
+  --preta: #141414;
+}
+
+* {
+  /* RESET-CSS */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; /*Garante que o conteúdo não ultrapasse o border-box */
+}
+
+/* BASIC ELEMENTS */
+
+body {
+  background: var(--preta);
+  font-family: "Arial", Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex; /* Flex-Box -> maneira de alinhar elementos */
+  flex-direction: row; /* Colocando como linha */
+  align-items: center; /* Alinhou verticalmente */
+  justify-content: space-between; /* Tabalha disponibilização horinzontal, cria um espaço */
+}
+
+header nav a {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/* LOGO */
+
+.netflix-logo {
+  /*ESSA CLASSE JÁ ESTÁ HERDANDO A ESTILIZAÇÃO DO ELEMENTO PAI "container", PORTANTO DEFINI APENAS O TAMANHO*/
+  width: 8rem;
+  height: 100%;
+}
+
+/* MAIN MOVIE */
+
+.main-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/bbdriver-capa.jpg");
+
+  height: 500px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Começa da esquerda pra direita */
+}
+
+.main-movie .description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+
+  padding: 15px 30px; /* Espaço interno da caixa, no caso do conteúdo as bordas */
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.3s ease all; /* Cuida da parte entre uma transição e outra */
+}
+
+.button a {
+  color: inherit;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+.button i {
+  margin-right: 8px;
+}
+
+.container {
+  /* Wrapper */
+  margin-left: 20px;
+}
+
+.main-movie .container {
+  width: 70%;
+}
+
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carousel-movies {
+  margin-top: 5px;
+}

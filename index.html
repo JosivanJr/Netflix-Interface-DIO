@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/main.css" />
+
+  <!-- Responsivity -->
+
+  <link rel="stylesheet" href="./style/responsive.css">
+
+  <!-- Owl CSS Files -->
+
+  <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+  <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img class="netflix-logo" src="./img/netfilx-logo.png" alt="Logo">
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentarios</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-movie">
+      <div class="container">
+        <!-- Classe container é a wrapper, é como divs pra encaixar todo o conteúdo, QUANDO PRECISA ALTERAR O TAMANHO VAI ALTERAR APENAS DA CLASSE WRAPPER -->
+        <h3 class="title">Em Ritmo de Fuga</h3>
+        <p class="description">
+          O jovem Baby tem uma mania curiosa: precisa ouvir músicas o tempo todo para silenciar o zumbido que perturba
+          seus ouvidos desde um acidente na infância. Excelente motorista, ele é o piloto de fuga oficial dos assaltos
+          de Doc, mas não vê a hora de deixar o cargo, principalmente depois que se vê apaixonado pela garçonete Debora.
+        </p>
+        <div class="all-button">
+          <button role="button" class="button">
+            <i class="fas fa-play"></i> <!-- Link do ícone "play", copiado direto do FontAwesome -->
+            <a href="https://www.netflix.com/br/title/80142090" target="_blank">ASSISTIR AGORA</a>
+          </button>
+          <!-- Role é como uma forma de aviso, caso em algum dispositivo mude o formato da tag (no caso button), o role avisa que o tipo é botão-->
+          <button role="button" class="button">
+            <i class="fas fa-info-circle"></i>
+            <a href="http://www.adorocinema.com/filmes/filme-230453/" target="_blank">MAIS INFORMAÇÕES</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carousel-movies">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-movie" src="./img/min1.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min3.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min4.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min5.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min6.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min7.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min8.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min9.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min10.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-movie" src="./img/min11.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FontAwesome Icon Link -->
+
+  <script src="https://kit.fontawesome.com/eb534ff5ac.js" crossorigin="anonymous"></script>
+
+  <!-- Owl JS FIles -->
+
+  <script src="./js/owl/jquery.min.js"></script>
+  <script src="./js/owl/owl.carousel.min.js"></script>
+
+  <!-- Calling main.js -->
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
