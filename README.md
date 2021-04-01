@@ -2,7 +2,7 @@
 
 # Dando sequência ao Bootcamp Angular Developer da Digital Innovation One, tive o projeto mostrado aqui como desafio da vez ! 🚀🚀🚀
 
-Desta vez, recriamos a interface da NetFlix, com <b>HTML</b>, <b>CSS</b> e <b>JS</b>, abordando diversos conteúdos como <i>Flex-Box, Class Wrapper, JQuery e também utilização do FontAwesome.</i>
+Desta vez, recriamos a interface da NetFlix, com <b>HTML</b>, <b>CSS</b> e <b>JS</b>, abordando diversos conteúdos como <i>Responsividade, Flex-Box, Class Wrapper, JQuery e também utilização do FontAwesome.</i>
 Lendo aqui você pode pensar "Ah Josivan, mas JQuery está com os dias contados, não vale a pena usar". 🤨🤨
 Talvez você tenha razão, mas lembre-se, esse projeto é para a galera que está iniciando, então mais importante que entender os frameworks e libs do momento é ter uma boa base e noções daquelas tecnologias que também já foram assim. <b>Toda forma de conhecimento é válida pessoal ! 🤩🤩🤩</b>
 
